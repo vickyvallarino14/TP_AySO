@@ -1,0 +1,257 @@
+ls
+ls -l
+ls -la
+man ls
+man man
+pwd
+whoami
+echo "te amu"
+ls
+cat readme
+ls
+cat README 
+cd repogit/
+ls
+git clone https://github.com/vickyvallarino14/repo_vallarino.git
+ls
+cd repo_vallarino/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt 
+git status
+git add
+git add -
+git add .
+git status
+git commit -m "mi primer commit"
+git config --global user.email "vallarinovictoria14@gmail.com"
+git config --global user.name "vickyvallarino14"
+git commit -m "mi primer commit"
+git push
+git status
+exit
+git status
+ls -l
+cd repogit/
+ls -l
+cd repo_vallarino/
+git status
+git commit -m "commits de la clase 3"
+git push
+git push -u origin main
+exit
+pwd
+echo $HOME
+ls
+ls -l
+ls -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cut id_ed25519.pub
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit/
+ls -l
+git clone git@github.com:vickyvallarino14/repo_vallarino.git
+ls
+cd repo_vallarino/
+ls -l
+echo "hola"
+echo "hola" > hola.txt
+ls-l
+ls -l
+cat hola.txt 
+git status
+git add .
+git status
+git commit -m "agrego hola"
+git status
+git push
+git push -u origin main
+cat /etc/passwd
+tail cat /etc/passwd
+tail /etc/passwd
+tail -n3 /etc/passwd
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | grep bash
+cat /etc/passwd | grep -n bash
+cat /etc/passwd | grep -n nologin
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -nv nologin > archivo1.txt
+ls-l
+ls -l
+cat archivo1.txt 
+cat /etc/passwd | grep -v nologin > archivo1.txt
+cat archivo1.txt 
+cat /etc/passwd | grep -nv nologin | tail -n3
+cat /etc/passwd | grep -nv nologin | head -n3
+cat /etc/shadow
+sudo cat /etc/shadow
+lscpu
+lscpu | grep model
+lscpu | grep Model 
+lscpu | grep -i model 
+lscpu | grep -i model | head -n1
+lscpu | grep -i model | head -n1 > info_proc.txt
+ls -l
+cat info_proc.txt 
+ls -l
+cat archivo1.txt 
+sort archivo1.txt 
+man sort
+history
+ls -l
+cat << FIN > bloque_cat.txt
+linea 1
+linea 2
+linea 3
+FIN
+
+cat bloque_cat.txt 
+cat << FIN > bloque2_cat.txt
+linea 4
+linea 5
+linea 6
+-i
+finFIN
+-i fin
+FIN
+
+bc <<< 4+3
+ls -l
+cat hola.txt 
+echo "chau" >> hola.txt 
+cat hola.txt 
+echo "chau" > chau.txt
+ls -l
+cat hola.txt chau.txt > saludo.txt
+ls -l
+cat saludo.txt 
+git status
+git add .
+git status
+git commit
+
+
+exit
+ssh-keygen
+[200~cat $HOME/.ssh/*.pub
+~cat $HOME/.ssh/*.pub
+cat $HOME/.ssh/*.pub
+cat $HOME/.ssh
+ls -l
+ls -la
+cd .ssh
+cd ..
+cat $HOME/.ssh/*.pub
+ssh-keygen
+cat $HOME/.ssh/*.pub
+ls -l
+cd repogit
+git clone git@github.com:vickyvallarino14/TP_AySO.git
+ls -la
+cd TP_AySO/
+pdw
+pwd
+ls -l
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)"> datos_usuario.txt
+ls -la
+git add .
+git config --global user.email "vallarinovictoria14@gmail.com"
+git config --global user.name "vickyvallarino14"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+head /proc/cpuinfo
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt
+ls -la
+cat datos_usuario.txt 
+git add
+git aqdd .
+git add .
+git status
+git commit -m "feat: Añadiendo informacion de CPU"
+head /etc/passwd
+head /etc/passwd | grep -v "nologin"  > lista_ordenada.txt
+ls -l
+cat lista_ordenada.txt 
+/etc/passwd
+sudo /etc/passwd
+/etc/passwd | grep -v nologin > lista_ordenada.txt 
+cat /etc/passwd
+head /etc/passwd
+head /etc/passwd | grep -v nologin > lista_ordenada.txt 
+cat lista_ordenada.txt 
+cat /etc/passwd | grep -v nologin > lista_ordenada.txt 
+cat lista_ordenada.txt 
+grep -v nologin /etc/passwd > lista_ordenada.txt 
+cd ..
+rm -r TP_AySO/
+ls -l
+rm -rf TP_AySO/
+ls -l
+exit
+cd repogit/
+git clone git@github.com:vickyvallarino14/TP_AySO.git
+ls
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git add .
+git config --global user.email "vallarinovictoria14@gmail.com"
+git config --global user.name "vickyvallarino14"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+head /proc/cpuinfo | grep "model name"
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt
+ls
+grep -v nologin /etc/passwd > lista_ordenada
+ls
+sort lista_ordenada -t":" -k7
+grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada
+ls
+cat lista_ordenada 
+git ad .
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+apropos "dump traffic"
+echo "$(apropos "dump traffic")" >> comando_dump_net
+ls
+cat comando_dump_net 
+apropos "dump traffic"
+tcpdump
+apropos "dump traffic" > comando_dump_net
+echo apropos "dump traffic" >> comando_dump_net 
+ls
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat << FIN >> README.md 
+Alumno: Victoria Vallarino
+División: 115
+Turno: Mañana
+FIN
+
+git status
+git add .
+git commit -m "ADD: Agregamos nuestros datos dentro del archivo README.md"
+history
+history -a $HOME/.bash_history
